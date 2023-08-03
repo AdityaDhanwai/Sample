@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "web.py", "use": "@zeet/python" }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "web.py"
+    }
+  ]
+}
